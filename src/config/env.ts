@@ -8,5 +8,6 @@ if (!process.env.DB_URL) {
 export const env = {
   PORT: process.env.PORT || "5000",
   DB_URL: process.env.DB_URL,
-  API_KEY: process.env.API_KEY || "",
+  JWT_EXP: process.env.JWT_EXP,
+  JWT_SECRET: process.env.JWT_SECRET,
 };
